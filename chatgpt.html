@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay</title>
+    <style>
+        body {
+            margin: 0; /* Body er margin remove kora */
+            font-family: Arial, sans-serif; /* Font family set kora */
+        }
+        .container {
+            position: relative; /* Relative positioning use kora */
+            width: 100%;
+            max-width: 600px; /* Image er width limit kora */
+        }
+        .image {
+            width: 100%; /* Image ta container er width er shathe match korbe */
+            height: auto; /* Image er height auto thakbe */
+        }
+        .overlay {
+            position: absolute; /* Overlay er position absolute kora */
+            top: 50%; /* Vertically center korar jonne 50% */
+            left: 50%; /* Horizontally center korar jonne 50% */
+            transform: translate(-50%, -50%); /* Centering adjust korar jonne */
+            padding: 20px; /* Overlay te space add kora */
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            text-align: center; /* Text ke center align kora */
+            border-radius: 10px; /* Optional: rounded corners add kora */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="./img/Banner Image.png" alt="Sample Image" class="image"> <!-- Image add kora -->
+    <div class="overlay">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!-- Text add kora -->
+    </div>
+</div>
+
+</body>
+</html>

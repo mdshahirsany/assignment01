@@ -1,0 +1,401 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nevbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color:#170550;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nevbar-logo{
+    width:150px;
+    height:55px;
+}
+.menu{
+    display: flex;
+    list-style:none;
+    gap:30px;
+}
+.menu>li{
+    color: white;
+    cursor:pointer;
+}
+.button{
+    background-color: white;
+    padding: 10px 42px;
+    color: #461959;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*=============
+ banner-part 
+ =============*/
+
+.banner-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 230px;
+    padding-right: 230px;
+    background-color: #31065A;
+    height: 683px;
+}
+
+.title{
+    color: #F86F03;
+    font-size: 30px;
+    font-weight:700px;
+    margin-bottom:6px;
+
+}
+.devaloper-name{
+    color: white;
+    margin-bottom: 6px;
+}
+
+.more-title{
+    color:white;
+    margin-bottom:15px;
+}
+.frontend{
+    color: #F86F03;
+}
+
+.driscption{
+    color: white;
+}
+
+.social-media{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.social-media> a> img{
+    margin-right: 24px;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.btn{
+    color: white;
+    background-color: #F86F03;
+    padding:10px 45px;
+    border: none;
+    border-radius: 20px;
+}
+
+/*=============
+   About Me 
+ =============*/
+
+.about{
+    text-align: center;
+    color: white;
+}
+
+#About-me{
+    background-color: #170550;
+    padding-top: 66px;
+    padding-bottom: 160px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#content{
+    color: white;
+}
+.information{
+    display: flex;
+    align-items: center;
+    gap: 123px;
+    margin-top: 105px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.info-title{
+    margin-bottom: 40px;
+}
+.pera{
+    margin-bottom: 32px;
+}
+.button-read{
+    color: #461959;
+    border: none;
+    background-color: white;
+    padding: 9px 37px;
+    margin-top: 67px;
+    border-radius: 20px;
+}
+
+/*=============
+   My services 
+ =============*/
+#services-section{
+    background-color: #31065A;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 76px;
+    padding-bottom: 166px;
+}
+#services-title{
+    text-align: center;
+}
+
+.single-card{
+    background-color: white;
+    width: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+
+    gap: 50px;
+    margin-top: 98px;
+}
+
+.single-card-img{
+    margin-bottom: 35px;
+}
+.single-card-title{
+    margin-bottom: 33px;
+}
+
+/*=============
+   My Skills 
+ =============*/
+ #My-skills{
+    background-color:#170550;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 76px;
+    padding-bottom: 166px;
+ }
+.single-skil{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.main-progress{
+    background-color:#43366A;
+    width: 80%;
+    height: 20px;
+    border-radius: 20px;
+}
+.single-skil>h5{
+    width: 100px;
+}
+.all-skil{
+    padding-top: 127px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.progress1{
+    position: absolute;
+    background-color: #F86F03;
+    width: 55%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress2{
+    position: absolute;
+    background-color: #F86F03;
+    width: 50%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress3{
+    position: absolute;
+    background-color: #F86F03;
+    width: 45%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress4{
+    position: absolute;
+    background-color: #F86F03;
+    width: 35%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress5{
+    position: absolute;
+    background-color: #F86F03;
+    width: 50%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.progress6{
+    position: absolute;
+    background-color: #F86F03;
+    width: 45%;
+    height: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+/*=============
+   Portfolio
+ =============*/
+ #Portfolio{
+    background-color: #31065A;
+    padding-top: 102px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 130px;
+ }
+ .project-part-one{
+    display: flex;
+    gap: 14px;
+ }
+
+ .project-part-one>img{
+    width: 400px;
+    cursor: pointer;
+ }
+
+ .project-part-one>img:hover{
+    opacity: 50%;
+ }
+
+ .project-part-two{
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
+    justify-content: space-between;
+ }
+
+ .project-part-two>img{
+    width: 400px;
+    cursor: pointer;
+ }
+
+ .project-part-two>img:hover{
+    opacity: 50%;
+ }
+
+ .all-project{
+    margin-top: 94px;
+    margin-left: 80px;
+    margin-right: 80px;
+ }
+
+ /*=============
+     Contact 
+ =============*/
+
+ #contact{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 150px;
+    padding-right: 150px;
+ }
+
+ #Contact-part{
+    background-color: #170550;
+    padding-top: 102px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 130px;
+ }
+
+ .phone{
+    color:white;
+    display: flex;
+    gap:15px ;
+ }
+ #about-phn{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+ }
+
+ #right-part{
+    display: flex;
+ }
+
+ .about-item{
+    display: flex;
+    margin-top: 94px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+ .full-contract{
+    width: 30px;
+ }
+ .butt{
+    color: #170550;
+}
+ 
+.contract{
+    color: white;
+    background-color:#43366A;
+    padding: 10px 500px 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.contract0{
+    color: white;
+    background-color:#43366A;
+    padding: 10px 475px 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.contract1{
+    color: white;
+    background-color:#43366A;
+    padding: 10px 198px 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.contract3{
+    color: white;
+    background-color:#43366A;
+    padding: 10px 475px 100px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.buttn1{
+    margin-bottom: 10px;
+}
+
+#contract{
+    display: flex;
+    gap: 10px; 
+   
+}
+.contract4{
+    margin-left: 250px;
+    color: white;
+    background-color:#43366A;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+/*=============
+     Footer
+ =============*/
+#footer-part{
+    color: white;
+    background-color: #31065A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+}

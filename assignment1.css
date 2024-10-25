@@ -1,0 +1,298 @@
+    /*=============
+      nevbar part 
+    ==============*/
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 560px;
+}
+.logo0{
+    padding-right: 15px;
+}
+#header-part{
+    display: flex;
+    padding-top: 10px;  
+}
+.list1{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+.travel{
+    color: rgb(253, 68, 0);
+}
+.home{
+    color: rgb(255, 68, 0);
+}
+
+     /*=============
+        main part 
+      =============*/
+/* Explore Your Travel */
+.image{
+    background-image: url(./assignment1/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+
+   
+
+}
+.my-travel{
+    color: white;
+    font-size: 65px;
+    padding-top: 100px;
+    text-align: center;
+}
+.text{
+    color: white;
+   padding-left: 650px;
+   padding-right: 650px;
+   text-align: center;
+   font-size: 20px;
+
+}
+
+    /* Our Popular Tours */
+.button{
+    background-color: rgb(255, 68, 0);
+    color: white;
+    border: none;
+    border-radius:7px;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.popular{
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.item{
+    font-size: 20px;
+}
+
+/* Choose Your Destination  */
+.Destination{
+    text-align: center;
+}
+.Destination1{
+    font-size: 20px;
+}
+ .cuntry{
+    display: flex;
+    gap:35px;
+    margin-left: 350px;
+    margin-right: 350px;
+ }
+ .cuntry1{
+    margin-top: 30px;
+    display: flex;
+    gap:30px;
+    margin-left: 350px;
+    margin-right: 350px;
+ }
+ .cuntry2{
+    margin-top: 30px;
+    display: flex;
+    gap:35px;
+    margin-left: 350px;
+    margin-right: 350px;
+ }
+
+    /* Why Choose Us */
+    .choose-us{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .choose-us1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .Hotels{
+        background-color:rgb(255, 248, 239);
+        border: 1px solid sandybrown;
+        border-radius: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+    .Service{
+        background-color:azure;
+        border: 1px solid powderblue;
+        border-radius: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 20px;
+    }
+    .hotel-service{
+        display: flex;
+        gap: 40px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+    .Best-Price{
+        background-color:rgb(253, 237, 240);
+        border: 1px solid pink;
+        font-size: 20px;
+        padding-left: 40%;
+        padding-right: 40%;  
+    }
+    /* Deals & Discounts */
+
+    .detail{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .detail-text{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .img01{
+        padding-left: 350px;
+        padding-right: 350px;
+        padding-top: 10px;
+    }
+    .img-nev{
+        display: flex;
+        gap: 30px;
+        font-size: 20px;
+    }
+    .ture{
+        font-size: 20px;
+    }
+    .price{
+        color: rgb(255, 68, 0);
+    }
+    .button1{
+    color: white;
+    background-color: rgb(255, 68, 0);
+    border: none;
+    border-radius:5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .Tour-To-Satorini{
+        background-color: azure;
+        border-radius: 10px;
+        float: right;
+        padding-right: 400px;
+    }
+    .Tour-To-Satorini01{
+        background-color: azure;
+        border-radius: 10px;
+        float:left;
+        padding-left: 400px;
+    }
+
+    .button3{
+    color: white;
+    background-color: rgb(255, 68, 0);
+    border: none;
+    border-radius:5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;;
+    }
+    .text-align{
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    /* A Simple Perfect Place To Get Lost */
+    .popular1{
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-top:50px ;
+    padding-right: 370px;
+    padding-bottom: 50px;
+    }
+    .video{
+        width: 650px;
+        border-radius: 15px;
+    }
+
+    /* Newsletter */
+
+    .Subscribe{
+    color: white;
+    background-color: rgb(255, 68, 0);
+    border: none;
+    border-radius:5px;
+    font-size: 16px;
+    width: 103%;
+    height: 30px;
+    }
+    .Newsletter{
+        border: 2px solid rgb(255, 68, 0);
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .last{
+        display: flex;
+        gap: 40px;
+        padding-left: 360px;
+        padding-right: 350px;
+        padding-bottom: 30px;
+    }
+    .margin{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #inpute{
+        background-color:rgb(211, 211, 211);
+        border: none;
+        border-radius: 3px;
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+    }
+    #inpute1{
+        background-color:rgb(211, 211, 211);
+        border: none;
+        border-radius: 3px;
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+    }
+      /* footer part */
+      .hero{
+        display: flex;
+        gap: 20px;
+        padding-left: 44%;
+        padding-right: 44%;
+        padding-top: 30px;
+      }
+      .pad{
+        padding-top: 10px;
+      }
+      .lorem{
+        font-size: 20px;
+        text-align: center;
+      }
+      .hr-teg{
+        margin-left: 450px;
+        margin-right: 450px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      .footer-part{
+        background-color: antiquewhite;
+      }
